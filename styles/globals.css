@@ -291,7 +291,7 @@ nav a:hover::after {
   background-image: url("https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?cs=srgb&dl=pexels-bri-schneiter-28802-346529.jpg&fm=jpg");
  background-repeat: no-repeat;  
     background-size: cover; 
-    height: auto;
+    height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center; 
