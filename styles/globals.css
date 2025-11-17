@@ -382,4 +382,119 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
     transform: scale(1.05);
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Large Tablets & Small Laptops */
+@media (max-width: 1024px) {
+  .objective, .Education, .Team {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .descriptive-container {
+    padding: 2rem 3%;
+    gap: 1.5rem;
+  }
+}
+
+/* Mobile & Small Tablets */
+@media (max-width: 768px) {
+
+  nav {
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0.8rem 0;
+  }
+
+  .img {
+    height: 180px;
+  }
+
+  .descriptive-container {
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+  }
+
+  .Description,
+  .Description1,
+  .Description2 {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+
+  .objective,
+  .Education,
+  .Team {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .Skillslist ul {
+    columns: 1; /* switch to one column list */
+  }
+
+  .Skill {
+    flex-direction: column;
+  }
+
+  .skillimg img,
+  .skillimg2 img {
+    max-width: 90%;
+  }
+
+  .project,
+  .Contact {
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .project a {
+    font-size: 1.2rem;
+    padding: 0.6rem 1.4rem;
+  }
+
+  .ContactInfo {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+/* Extra Small Mobile */
+@media (max-width: 480px) {
+  nav a {
+    font-size: 0.9rem;
+  }
+
+  .ContactInfo p,
+  .Skillslist li {
+    font-size: 0.9rem;
+  }
+
+  .project a {
+    font-size: 1rem;
+  }
+}
   
