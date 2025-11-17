@@ -185,6 +185,17 @@ nav a:hover::after {
 }
 
 
+  .Skillslist p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+
+
 /* CONTACT SECTION */
 .Contact {
   background-image: url("https://static.vecteezy.com/system/resources/thumbnails/071/599/269/small/a-majestic-snow-capped-mountain-peak-reflects-perfectly-in-a-calm-lake-under-a-starry-night-sky-photo.jpg");
