@@ -79,7 +79,7 @@ export default function Home() {
 
         <p>Education</p>
 
-        <p>SENECA POLYTECHNIC</p>
+        <p>Seneca Polytechnic</p>
         <p>September 2023- August 2027</p>
         <p>Honours Bachelor of Technology – Software Development.</p>
 
