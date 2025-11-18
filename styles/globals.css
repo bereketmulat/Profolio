@@ -143,7 +143,7 @@ nav a:hover::after {
   max-width: 700px;
   margin: 40px auto;
   padding: 25px;
-  text-align: centre;
+  text-align: center; 
   background: white;
   border-radius: 16px;
   box-shadow: 0 10px 35px rgba(0,0,0,0.1);
@@ -156,7 +156,7 @@ nav a:hover::after {
   max-width: 700px;
   margin: 40px auto;
   padding: 25px;
-  text-align: centre;
+  text-align: center; 
   background: white;
   border-radius: 16px;
   box-shadow: 0 10px 35px rgba(0,0,0,0.1);
@@ -175,6 +175,9 @@ nav a:hover::after {
   transition: all 0.35s ease;
 }
 
+.Team p {
+  text-align: center; 
+}
 
 
 
