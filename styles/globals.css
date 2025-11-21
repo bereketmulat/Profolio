@@ -342,7 +342,7 @@ nav a:hover::after {
   opacity: 0;
   transform: translateY(-20px);
   visibility: hidden;
- transition: opacity 0.3s ease 1s, transform 0.3s ease 1s, visibility 0.3s 1s; 
+ transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s; 
   padding: clamp(20px, 4vw, 40px); /* Responsive padding */
   margin: 0 auto;
   position: absolute;
