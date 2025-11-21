@@ -326,6 +326,7 @@ nav a:hover::after {
   font-size: 1rem;
   color: white;
   padding: 40px;
+  background: rgba(0,0,0,0.45);
   
 }
 
