@@ -309,21 +309,22 @@ nav a:hover::after {
   justify-content: center; 
   align-items: center; 
   text-align: center;
-  gap: 1.2rem;  
+  gap: 0; 
 }
 
 .project p {
- font-size: 1rem;
+  font-size: 1rem;
   color: white;
-  padding: 40px;
   background: rgba(0,0,0,0.45);
   width: 750px;
   border-radius: 5px;
   opacity: 0;
-  max-height: 0;
-  overflow: hidden;
-  transition: all 0.4s ease;
-  padding: 0;
+  transform: translateY(-20px);
+  visibility: hidden;
+  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+  padding: 40px;
+  margin: 0 auto;
+  position: absolute;
 }
 
 .project a{
@@ -342,15 +343,20 @@ background: rgba(0,0,0,0.45);
 .project a:hover + p,
 .project a:hover + p + p {
   opacity: 1;
-  max-height: 1000px;
-  padding: 40px;
+  transform: translateY(0);
+  visibility: visible;
+  position: relative;
+  margin: 20px auto; 
 }
 
 .project p:hover {
   opacity: 1;
-  max-height: 1000px;
-  padding: 40px;
+  transform: translateY(0);
+  visibility: visible;
+  position: relative; 
+  margin: 20px auto;
 }
+
 
 
 @media (max-width: 700px) {
