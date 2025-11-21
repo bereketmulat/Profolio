@@ -355,6 +355,7 @@ nav a:hover::after {
   visibility: visible;
   position: relative;
   margin: 20px auto;
+  width:auto;
 }
 
 .project p:hover {
@@ -363,6 +364,7 @@ nav a:hover::after {
   visibility: visible;
   position: relative;
   margin: 20px auto;
+  width:auto;
 }
 
 
