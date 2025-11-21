@@ -328,8 +328,7 @@ nav a:hover::after {
   color: white;
   padding: 40px;
   background: rgba(0,0,0,0.45);
-  margin: 20px auto;
-  max-width: 700px;
+
  
   
 }
