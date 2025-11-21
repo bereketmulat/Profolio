@@ -323,34 +323,17 @@ nav a:hover::after {
 }
 
 
-
-
-
 .project p {
   font-size: 1rem;
   color: white;
-  padding: 30px;
-  background: rgba(0, 0, 0, 0.45);
+  padding: 40px;
+  background: rgba(0,0,0,0.45);
   margin: 20px auto;
   border-radius: 8px;
   max-width: 700px;
   line-height: 1.6;
+  
 }
-
-.project > :last-child {
-  margin-top: 40px;
-  padding: 10px 20px;
-  background: #0070f3;
-  color: white;
-  border-radius: 5px;
-  font-weight: 500;
-  transition: background 0.3s ease;
-}
-
-.project > :last-child:hover {
-  background: #0051cc;
-}
-
 
 
 
