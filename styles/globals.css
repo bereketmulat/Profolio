@@ -326,6 +326,19 @@ nav a:hover::after {
   padding: 0;
 }
 
+.project a{
+color: white;
+  font-size: 1.6rem;
+background: rgba(0,0,0,0.45);
+  border-radius: 5px;
+    font-size: 24px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  transition: 0.3s ease;
+
+}
+
 .project a:hover + p,
 .project a:hover + p + p {
   opacity: 1;
