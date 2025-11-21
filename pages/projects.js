@@ -20,6 +20,11 @@ export default function projects(){
         the patterns used when making the design. 
     </p>
     <a href = "https://github.com/bereketmulat/project1">Jack Pot - Lottery </a>
+    <p>
+    for this project, I designed a lottery system that let you bet a certain amount on getting a certain sequence of numbers and if those numbers are
+    met you win and if the sequence is not met you can try again  
+
+    </p>
     <Link href="/">Back</Link>
    
     
