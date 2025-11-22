@@ -318,6 +318,8 @@ nav a:hover::after {
   text-align: center;
   gap: 0;
   padding: 20px; 
+  width: auto;
+  
 }
 
 .project a {
