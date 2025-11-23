@@ -361,7 +361,7 @@ nav a:hover::after {
   left: calc(50% + 250px); 
   top: 50%;
   transform: translateY(-50%) translateX(-20px);
-  width: auto;
+  
 
 }
 
@@ -372,6 +372,7 @@ nav a:hover::after {
   visibility: visible;
   position: absolute;
   z-index: 10;
+  width: auto;
 }
 
 .project p:hover {
