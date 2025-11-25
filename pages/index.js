@@ -148,21 +148,49 @@ export default function Home() {
     
 
 
-      <div className="Team">
+       <div className="Team">
 
         <ul>
 
       <p>Members of Clubs </p>
 
          <li>STRA Labs </li>
+         <p>We are a student-led team at Seneca Polytechnic. Our team consists of members who are passionate about the space innovation industry.
+          We began our journey in 2025, but despite the fact that we are a very recent group, we have massive ambitions.</p>
+
+
          <li>Disruptive technologies </li>
+
+         <p>Through student empowerment, the purpose is to expand recognition of the IT Audit and Assurance, Security and IT Governance disciplines by extending education beyond the classroom on standards, practices and certification. • To promote the education of and help expand the knowledge and skills of its members in the interrelated fields of IT governance, IS audit, security, control and assurance; • To encourage a free exchange of IT governance, IS audit, security, control and assurance techniques, approaches, and problem-solving by its members; • To promote adequate communication to keep members abreast of current events in IT governance, IS audit, security, control and assurance that can be beneficial to them and their employers; • To communicate to management, auditors, universities and IS professionals the importance of establishing controls necessary to ensure proper IT governance and the effective 
+          organization and utilization of IT resources.</p>
+
+
+
+
           <li>Open source </li>
+
+          <p>Stack follows the BEM naming convention that focusses on logical code readability that 
+            is reflected in both the HTML and CSS. Interactive elements such as accordions and tabs 
+            follow the same markup patterns making rapid development easier for developers and beginners alike.
+            Add to this the thoughtfully presented documentation, featuring code highlighting, snippets, 
+            class customizer explanation and youve got yourself one powerful value package.</p>
+
+
          <li>Cyber cafe club </li>
-          <li>Wealth management & financial planning club.</li>
+
+         <p>Dive into hacking challenges, sharpen your skills, and join a community of students passionate about cybersecurity.</p>
+
+        <li>Wealth management & financial planning club.</li>
+
+          <p>Our Missionis to educate and empower Seneca students to build financial confidence by 
+          learning the fundamentals of money management, investing, and long-term wealth planning. 
+          We aim to create a supportive community where students can develop smart financial habits and 
+          prepare for lasting success in their personal and professional lives.</p>
 
           </ul>
 
       </div>
+
 
    
 
