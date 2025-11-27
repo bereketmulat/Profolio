@@ -129,7 +129,7 @@ export default function Home() {
         <li>SQL/My SQL</li>
         <li>JavaScript</li>
         <li>HTML/CSS</li>
-        <li>GitHub</li>
+        
 
 
 
