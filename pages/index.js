@@ -1,3 +1,4 @@
+import Image from 'next/image'
 
 
 import Link from "next/link";
@@ -31,6 +32,9 @@ export default function Home() {
 
 
        <div className="Description1">
+
+       <img src="/IMG_9459.JPG" alt="Description of your image"  className="profile-image"/>
+
         <p>About Me</p>
         <p>  
         I am a software engineer with a rigorous academic background and a deep appreciation for the intellectual craft of technology.
@@ -38,7 +42,11 @@ export default function Home() {
         writing clean and maintainable code, or approaching complex challenges with structured creativity.
         
         </p>
+        
        </div>
+
+
+       
 
 
        <div className="Description2">
@@ -48,6 +56,18 @@ export default function Home() {
 
       
       </div>
+
+
+
+      <div className="Hobbies">
+          <p className="hobby">Hobbies</p>
+          <div className="hobby-images">
+            <img src="/IMG_1392 2.JPG" alt="Hobby 1" className="hobby-img"/>
+            <img src="/IMG_0477.HEIC" alt="Hobby 2" className="hobby-img"/>
+            <img src="/IMG_1391.JPG" alt="Hobby 3" className="hobby-img"/>
+          </div>
+        </div>
+
 
 
 
@@ -148,49 +168,48 @@ export default function Home() {
     
 
 
-       <div className="Team">
+      <div className="Team">
 
         <ul>
 
       <p>Members of Clubs </p>
 
          <li>STRA Labs </li>
-         <p>Student-led space innovation team at Seneca Polytechnic. Founded in 2025, we're building a community
-            of future aerospace engineers and developers exploring cutting-edge 
-            technologies in the space industry.</p>
+         <p>We are a student-led team at Seneca Polytechnic. Our team consists of members who are passionate about the space innovation industry.
+          We began our journey in 2025, but despite the fact that we are a very recent group, we have massive ambitions.</p>
 
 
          <li>Disruptive technologies </li>
 
-         <p>Advancing knowledge in IT Audit, Security, and Governance beyond the classroom. 
-                We focus on industry standards, best practices, and emerging security frameworks while fostering dialogue between students, 
-                industry professionals, and academia on critical IT governance challenges.</p>
+         <p>Through student empowerment, the purpose is to expand recognition of the IT Audit and Assurance, Security and IT Governance disciplines by extending education beyond the classroom on standards, practices and certification. • To promote the education of and help expand the knowledge and skills of its members in the interrelated fields of IT governance, IS audit, security, control and assurance; • To encourage a free exchange of IT governance, IS audit, security, control and assurance techniques, approaches, and problem-solving by its members; • To promote adequate communication to keep members abreast of current events in IT governance, IS audit, security, control and assurance that can be beneficial to them and their employers; • To communicate to management, auditors, universities and IS professionals the importance of establishing controls necessary to ensure proper IT governance and the effective 
+          organization and utilization of IT resources.</p>
 
 
 
 
           <li>Open source </li>
 
-          <p>Contributing to open source projects with emphasis on clean, maintainable code following modern conventions like BEM methodology. 
-                Collaborating with developers to create well-documented, accessible solutions that 
-                benefit the broader development community.</p>
+          <p>Stack follows the BEM naming convention that focusses on logical code readability that 
+            is reflected in both the HTML and CSS. Interactive elements such as accordions and tabs 
+            follow the same markup patterns making rapid development easier for developers and beginners alike.
+            Add to this the thoughtfully presented documentation, featuring code highlighting, snippets, 
+            class customizer explanation and youve got yourself one powerful value package.</p>
 
 
          <li>Cyber cafe club </li>
 
-         <p>Participating in hands-on cybersecurity challenges and CTF competitions. 
-                    Developing practical security skills while connecting with 
-    peers passionate about ethical hacking and digital defense.</p>
+         <p>Dive into hacking challenges, sharpen your skills, and join a community of students passionate about cybersecurity.</p>
 
         <li>Wealth management & financial planning club.</li>
 
-          <p>Learning the fundamentals of personal finance, investment strategies, and long-term wealth building. 
-        Part of a community helping students develop financial literacy for professional and personal success.</p>
+          <p>Our Missionis to educate and empower Seneca students to build financial confidence by 
+          learning the fundamentals of money management, investing, and long-term wealth planning. 
+          We aim to create a supportive community where students can develop smart financial habits and 
+          prepare for lasting success in their personal and professional lives.</p>
 
           </ul>
 
       </div>
-
 
    
 
@@ -199,3 +218,4 @@ export default function Home() {
       </>
     );
   };
+
