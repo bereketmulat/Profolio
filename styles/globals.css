@@ -107,26 +107,48 @@ nav a:hover::after {
   max-width: 350px;
   border-radius: 14px;
   overflow: hidden;
-
-
   background: rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.12);
-
-
-
-
-
   box-shadow: 0 8px 25px rgba(0,0,0,0.1);
   transition: transform 0.35s ease, box-shadow 0.35s ease;
-  color:white;
+  color: white;
 }
+
+.Description1 {
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+}
+
+.Description1 > p:first-of-type {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.Description1 > p:last-of-type {
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
 .Description img,
 .Description2 img {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
+
 .Description:hover,
 .Description2:hover,
 .Description1:hover {
@@ -134,14 +156,62 @@ nav a:hover::after {
   box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }
 
-.Description1 {
+
+
+
+
+
+
+
+.Hobbies {
+  flex: 1 1 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  color: white;
   padding: 2rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.Description1 p:first-child {
-  font-size: 1.4rem;
+
+.Hobbies:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.hobby {
+  font-size: 1.8rem;
   font-weight: bold;
+  margin-bottom: 1.5rem;
 }
+
+.hobby-images {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.hobby-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+
+
+
 
 
 .objective {
@@ -605,4 +675,3 @@ nav a:hover::after {
     width: 100%;
   }
 }
-
